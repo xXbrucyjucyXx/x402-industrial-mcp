@@ -1,0 +1,31 @@
+{
+  "name": "x402-industrial-mcp",
+  "version": "1.0.0",
+  "description": "Industrial PLC intelligence MCP server — 6 tools for ladder logic, tag databases, fault root cause, and sequence blockers. Pay-per-query with USDC on Solana.",
+  "type": "module",
+  "mcp": {
+    "serverName": "x402-industrial",
+    "endpoint": "https://shore-mutiny-gruffly.ngrok-free.dev/mcp/tools",
+    "tools": [
+      "x402_plc_tag_references",
+      "x402_plc_cause_trace",
+      "x402_plc_fault_rca",
+      "x402_start_sequence_blockers",
+      "x402_plc_rung_context",
+      "x402_plc_search_tags"
+    ],
+    "payment": {
+      "protocol": "x402",
+      "asset": "USDC",
+      "network": "solana",
+      "wallet": "Csz35TkkhaUQfjCCs7H4gbGrDkTdQzUEzGpRP5kxRFzu"
+    }
+  },
+  "keywords": [
+    "mcp", "mcp-server", "plc", "industrial", "automation",
+    "ladder-logic", "scada", "allen-bradley", "rockwell",
+    "fault-diagnosis", "predictive-maintenance", "x402",
+    "usdc", "solana", "ai-agent", "llm"
+  ],
+  "license": "MIT"
+}
